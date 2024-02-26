@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: linear-gradient(to right, #4c6c81, #516A7A, #244e6a, #083263);
+    /* background-color: #538B86; */
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.titulo{
+  margin: 40px;
+  font-size: 50px;
+}
+
+div{
+    display: ruby-base;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foto{
+  width: 150px;
+  height: 100px;
+}
+
+#filme{
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 0px solid #cccccc;
+  border-radius: 6px;
+}
+
+ button{
+  width: 10%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 0 solid #cccccc;
+  border-radius: 6px;
+}
+
+button:hover{
+  background-color: #262E33;
+  color: white;
+}
+
+img{
+  width: 260px; 
+  height: 350px;
+  margin-left: 5px;
+  
+}

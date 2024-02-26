@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: linear-gradient(to right, #4c6c81, #516A7A, #244e6a, #083263);
+    background-color: #e6e6e6;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.frase{
+    margin: 40px;
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+  /* div{
+   display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }*/
+ 
+
+button{
+  width: fit-content;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 0 solid #cccccc;
+}
+
+#numSecreto{
+  width: max-content;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 0 solid #cccccc;
+}
+
+button:hover{
+  background-color: #b7d7ea;
+}
