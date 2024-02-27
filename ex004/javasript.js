@@ -1,4 +1,3 @@
-
 function verificarChute(){
     var numeroSecreto = 500;
     var valor = document.getElementById('numSecreto').value;

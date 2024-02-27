@@ -21,4 +21,3 @@ function verificar(){
     }
 }
 
-// Arrumar a parte do genero colocar imagem simbolica de feminino e masculino
